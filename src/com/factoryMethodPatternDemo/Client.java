@@ -1,4 +1,4 @@
-package com.FactoryMethodDemo;
+package com.factoryMethodPatternDemo;
 
 import org.xml.sax.SAXException;
 

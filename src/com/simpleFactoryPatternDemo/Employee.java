@@ -1,4 +1,4 @@
-package com.simpleFactoryDemo;
+package com.simpleFactoryPatternDemo;
 
 public class Employee extends User {
     @Override

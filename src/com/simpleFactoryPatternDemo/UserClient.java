@@ -1,4 +1,4 @@
-package com.simpleFactoryDemo;
+package com.simpleFactoryPatternDemo;
 
 public class UserClient {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package com.simpleFactoryDemo;
+package com.simpleFactoryPatternDemo;
 
 public abstract class User {
     public void commOperation() {

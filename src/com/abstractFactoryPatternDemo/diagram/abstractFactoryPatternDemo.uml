@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="427.65104166666663" y="0.0">com.abstractFactoryPatternDemo.product.Television</node>
+    <node x="335.5" y="141.0">com.abstractFactoryPatternDemo.factory.AbstractFactory</node>
+    <node x="519.4156250000001" y="141.0">com.abstractFactoryPatternDemo.product.HaierAirConditioner</node>
+    <node x="10.5" y="141.0">com.abstractFactoryPatternDemo.product.TCLAirConditioner</node>
+    <node x="209.94270833333331" y="0.0">com.abstractFactoryPatternDemo.product.AirConfditioner</node>
+    <node x="186.5" y="141.0">com.abstractFactoryPatternDemo.product.TCLTelevision</node>
+    <node x="530.7958333333333" y="232.0">com.abstractFactoryPatternDemo.factory.HaierFactory</node>
+    <node x="364.5" y="232.0">com.abstractFactoryPatternDemo.Client</node>
+    <node x="704.4156250000001" y="141.0">com.abstractFactoryPatternDemo.product.HaierTelevision</node>
+    <node x="190.146875" y="241.0">com.abstractFactoryPatternDemo.factory.TCLFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.abstractFactoryPatternDemo.factory.TCLFactory" target="com.abstractFactoryPatternDemo.product.TCLAirConditioner">
+      <point x="-22.599999999999994" y="-15.5" />
+      <point x="223.046875" y="202.0" />
+      <point x="88.0" y="202.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.factory.TCLFactory" target="com.abstractFactoryPatternDemo.product.TCLTelevision">
+      <point x="0.0" y="-15.5" />
+      <point x="245.646875" y="212.0" />
+      <point x="250.5" y="212.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.factory.HaierFactory" target="com.abstractFactoryPatternDemo.product.Television">
+      <point x="49.19999999999999" y="-15.5" />
+      <point x="641.4958333333333" y="212.0" />
+      <point x="852.9156250000001" y="212.0" />
+      <point x="852.9156250000001" y="51.0" />
+      <point x="525.734375" y="51.0" />
+      <point x="44.58333333333333" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.Client" target="com.abstractFactoryPatternDemo.product.Television">
+      <point x="27.33333333333333" y="-15.5" />
+      <point x="432.83333333333337" y="212.0" />
+      <point x="497.91562500000003" y="212.0" />
+      <point x="497.91562500000003" y="121.0" />
+      <point x="490.06770833333337" y="121.0" />
+      <point x="8.916666666666686" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.product.TCLAirConditioner" target="com.abstractFactoryPatternDemo.product.AirConfditioner">
+      <point x="0.0" y="-15.5" />
+      <point x="88.0" y="81.0" />
+      <point x="244.44270833333331" y="81.0" />
+      <point x="-34.5" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.factory.TCLFactory" target="com.abstractFactoryPatternDemo.product.AirConfditioner">
+      <point x="-45.19999999999999" y="-15.5" />
+      <point x="200.446875" y="212.0" />
+      <point x="0.0" y="212.0" />
+      <point x="0.0" y="71.0" />
+      <point x="221.44270833333331" y="71.0" />
+      <point x="-57.5" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.factory.TCLFactory" target="com.abstractFactoryPatternDemo.factory.AbstractFactory">
+      <point x="45.19999999999999" y="-15.5" />
+      <point x="290.84687499999995" y="212.0" />
+      <point x="358.83333333333337" y="212.0" />
+      <point x="-46.666666666666664" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.factory.AbstractFactory" target="com.abstractFactoryPatternDemo.product.AirConfditioner">
+      <point x="-35.0" y="-15.5" />
+      <point x="370.5" y="91.0" />
+      <point x="290.4427083333333" y="91.0" />
+      <point x="11.5" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.factory.HaierFactory" target="com.abstractFactoryPatternDemo.product.HaierTelevision">
+      <point x="24.599999999999994" y="-15.5" />
+      <point x="616.8958333333333" y="202.0" />
+      <point x="773.4156250000001" y="202.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.product.TCLTelevision" target="com.abstractFactoryPatternDemo.product.Television">
+      <point x="0.0" y="-15.5" />
+      <point x="250.5" y="101.0" />
+      <point x="436.56770833333337" y="101.0" />
+      <point x="-44.583333333333314" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.factory.HaierFactory" target="com.abstractFactoryPatternDemo.product.HaierAirConditioner">
+      <point x="0.0" y="-15.5" />
+      <point x="592.2958333333333" y="212.0" />
+      <point x="601.9156250000001" y="212.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.factory.TCLFactory" target="com.abstractFactoryPatternDemo.product.Television">
+      <point x="22.599999999999994" y="-15.5" />
+      <point x="268.246875" y="202.0" />
+      <point x="325.0" y="202.0" />
+      <point x="325.0" y="111.0" />
+      <point x="454.40104166666663" y="111.0" />
+      <point x="-26.75" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.Client" target="com.abstractFactoryPatternDemo.factory.AbstractFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.factory.AbstractFactory" target="com.abstractFactoryPatternDemo.product.Television">
+      <point x="35.0" y="-15.5" />
+      <point x="440.5" y="121.0" />
+      <point x="472.234375" y="121.0" />
+      <point x="-8.916666666666657" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.product.HaierTelevision" target="com.abstractFactoryPatternDemo.product.Television">
+      <point x="0.0" y="-15.5" />
+      <point x="773.4156250000001" y="61.0" />
+      <point x="507.90104166666663" y="61.0" />
+      <point x="26.75" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.factory.HaierFactory" target="com.abstractFactoryPatternDemo.product.AirConfditioner">
+      <point x="-24.599999999999994" y="-15.5" />
+      <point x="567.6958333333333" y="192.0" />
+      <point x="508.91562500000003" y="192.0" />
+      <point x="508.91562500000003" y="81.0" />
+      <point x="313.4427083333333" y="81.0" />
+      <point x="34.5" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.Client" target="com.abstractFactoryPatternDemo.product.AirConfditioner">
+      <point x="-27.33333333333333" y="-15.5" />
+      <point x="378.1666666666667" y="192.0" />
+      <point x="176.0" y="192.0" />
+      <point x="176.0" y="91.0" />
+      <point x="267.4427083333333" y="91.0" />
+      <point x="-11.5" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.product.HaierAirConditioner" target="com.abstractFactoryPatternDemo.product.AirConfditioner">
+      <point x="0.0" y="-15.5" />
+      <point x="601.9156250000001" y="71.0" />
+      <point x="336.4427083333333" y="71.0" />
+      <point x="57.5" y="15.5" />
+    </edge>
+    <edge source="com.abstractFactoryPatternDemo.factory.HaierFactory" target="com.abstractFactoryPatternDemo.factory.AbstractFactory">
+      <point x="-49.19999999999999" y="-15.5" />
+      <point x="543.0958333333333" y="202.0" />
+      <point x="452.1666666666667" y="202.0" />
+      <point x="46.66666666666666" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="363.5" y="148.5" />
+  <SelectedNodes>
+    <node>com.abstractFactoryPatternDemo.factory.TCLFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

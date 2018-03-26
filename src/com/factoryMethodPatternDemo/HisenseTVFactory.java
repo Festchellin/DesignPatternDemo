@@ -1,4 +1,4 @@
-package com.FactoryMethodDemo;
+package com.factoryMethodPatternDemo;
 
 public class HisenseTVFactory extends TVFactory {
     @Override

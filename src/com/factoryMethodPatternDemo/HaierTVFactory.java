@@ -1,4 +1,4 @@
-package com.FactoryMethodDemo;
+package com.factoryMethodPatternDemo;
 
 public class HaierTVFactory extends TVFactory {
     @Override
