@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config>
-    <className>com.abstractFactoryPatternDemo.factory.HaierFactory</className>
+    <className>com.abstractFactoryPatternDemo.factory.TCLFactory</className>
 </config>
