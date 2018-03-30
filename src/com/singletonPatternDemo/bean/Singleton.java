@@ -1,4 +1,4 @@
-package com.SingletonPatternDemo.bean;
+package com.singletonPatternDemo.bean;
 
 public class Singleton {
     private static Singleton instance;

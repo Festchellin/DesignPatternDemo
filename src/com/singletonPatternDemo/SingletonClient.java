@@ -1,6 +1,6 @@
-package com.SingletonPatternDemo;
+package com.singletonPatternDemo;
 
-import com.SingletonPatternDemo.bean.Singleton;
+import com.singletonPatternDemo.bean.Singleton;
 
 public class SingletonClient {
     public static void main(String[] args) {
