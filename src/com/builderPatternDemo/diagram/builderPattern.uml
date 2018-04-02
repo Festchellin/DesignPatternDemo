@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="420.0">com.builderPatternDemo.BuilderPatternClient</node>
+    <node x="222.0" y="420.0">com.builderPatternDemo.utils.XMLUtils</node>
+    <node x="228.0" y="273.0">com.builderPatternDemo.product.Meal</node>
+    <node x="0.0" y="151.0">com.builderPatternDemo.builder.SubMealBuilderA</node>
+    <node x="93.5" y="0.0">com.builderPatternDemo.builder.Builder</node>
+    <node x="187.0" y="151.0">com.builderPatternDemo.builder.SubMealBuilderB</node>
+    <node x="0.0" y="273.0">com.builderPatternDemo.director.KFCWaiter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.builderPatternDemo.builder.SubMealBuilderA" target="com.builderPatternDemo.builder.Builder">
+      <point x="0.0" y="-38.5" />
+      <point x="83.5" y="126.0" />
+      <point x="135.25" y="126.0" />
+      <point x="-41.75" y="50.5" />
+    </edge>
+    <edge source="com.builderPatternDemo.builder.SubMealBuilderB" target="com.builderPatternDemo.builder.Builder">
+      <point x="0.0" y="-38.5" />
+      <point x="270.5" y="126.0" />
+      <point x="218.75" y="126.0" />
+      <point x="41.75" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.5" y="60.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
