@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="379.85807386331544" y="358.5322145780802">com.decoratorPatternDemo.component.Componet</node>
+    <node x="50.50132214656696" y="406.5305571624857">com.decoratorPatternDemo.component.decorator.ScrollBarDecorator</node>
+    <node x="0.0" y="734.315479466786">com.decoratorPatternDemo.component.decorator.BaseDecorator</node>
+    <node x="565.5488932367891" y="729.2916581216547">com.decoratorPatternDemo.DecoratorClient</node>
+    <node x="378.77131635298736" y="0.0">com.decoratorPatternDemo.component.impl.ListBox</node>
+    <node x="277.7562725262733" y="902.5246742334363">com.decoratorPatternDemo.component.decorator.BlackBorderDecorator</node>
+    <node x="560.0653407640523" y="48.577587433532926">com.decoratorPatternDemo.component.impl.TextBox</node>
+    <node x="555.7342274239493" y="493.3978964108454">com.decoratorPatternDemo.component.impl.Window</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.decoratorPatternDemo.component.decorator.ScrollBarDecorator" target="com.decoratorPatternDemo.component.Componet">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.decoratorPatternDemo.component.impl.Window" target="com.decoratorPatternDemo.component.Componet">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.decoratorPatternDemo.component.impl.TextBox" target="com.decoratorPatternDemo.component.Componet">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.decoratorPatternDemo.component.decorator.BlackBorderDecorator" target="com.decoratorPatternDemo.component.decorator.BaseDecorator">
+      <point x="-2.4413065689419753" y="4.363487393867501" />
+      <point x="-2.441306568941968" y="4.363487393867516" />
+    </edge>
+    <edge source="com.decoratorPatternDemo.DecoratorClient" target="com.decoratorPatternDemo.component.decorator.ScrollBarDecorator">
+      <point x="9.401838108597815" y="0.0" />
+      <point x="9.401838108597872" y="0.0" />
+    </edge>
+    <edge source="com.decoratorPatternDemo.DecoratorClient" target="com.decoratorPatternDemo.component.impl.Window">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.decoratorPatternDemo.component.decorator.BaseDecorator" target="com.decoratorPatternDemo.component.Componet">
+      <point x="-13.108902706077515" y="0.0" />
+      <point x="-13.10890270607758" y="0.0" />
+    </edge>
+    <edge source="com.decoratorPatternDemo.component.impl.ListBox" target="com.decoratorPatternDemo.component.Componet">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.decoratorPatternDemo.component.decorator.BlackBorderDecorator" target="com.decoratorPatternDemo.component.Componet">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.decoratorPatternDemo.component.decorator.ScrollBarDecorator" target="com.decoratorPatternDemo.component.decorator.BaseDecorator">
+      <point x="4.9117729502901" y="0.9351398209885247" />
+      <point x="4.911772950290128" y="0.9351398209885247" />
+    </edge>
+    <edge source="com.decoratorPatternDemo.DecoratorClient" target="com.decoratorPatternDemo.component.decorator.BlackBorderDecorator">
+      <point x="-7.873155358367114" y="-1.4210854715202004E-14" />
+      <point x="-7.873155358367114" y="0.0" />
+    </edge>
+    <edge source="com.decoratorPatternDemo.DecoratorClient" target="com.decoratorPatternDemo.component.Componet">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="143.5" y="940.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
