@@ -1,4 +1,4 @@
-package com.decoratorPatternDemo.component.decorator;
+package com.decoratorPatternDemo.decorator;
 
 import com.decoratorPatternDemo.component.Componet;
 

@@ -1,8 +1,8 @@
 package com.decoratorPatternDemo;
 
 import com.decoratorPatternDemo.component.Componet;
-import com.decoratorPatternDemo.component.decorator.BlackBorderDecorator;
-import com.decoratorPatternDemo.component.decorator.ScrollBarDecorator;
+import com.decoratorPatternDemo.decorator.BlackBorderDecorator;
+import com.decoratorPatternDemo.decorator.ScrollBarDecorator;
 import com.decoratorPatternDemo.component.impl.Window;
 
 public class DecoratorClient {
