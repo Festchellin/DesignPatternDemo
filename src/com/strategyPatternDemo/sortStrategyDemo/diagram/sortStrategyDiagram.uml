@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="179.0" y="212.0">com.strategyPatternDemo.sortStrategyDemo.strategy.SortStrategy</node>
+    <node x="3.0" y="330.0">com.strategyPatternDemo.sortStrategyDemo.client.SortStrategyClient</node>
+    <node x="333.0" y="111.0">com.strategyPatternDemo.sortStrategyDemo.strategy.impl.SelectSortStrategy</node>
+    <node x="0.0" y="94.0">com.strategyPatternDemo.sortStrategyDemo.context.SortContext</node>
+    <node x="126.0" y="432.0">com.strategyPatternDemo.sortStrategyDemo.strategy.impl.QuickSortStrategy</node>
+    <node x="171.0" y="0.0">com.strategyPatternDemo.sortStrategyDemo.strategy.impl.InsertationSortStrategy</node>
+    <node x="324.0" y="337.0">com.strategyPatternDemo.sortStrategyDemo.strategy.impl.BubbleSortStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.strategyPatternDemo.sortStrategyDemo.client.SortStrategyClient" target="com.strategyPatternDemo.sortStrategyDemo.strategy.SortStrategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.strategyPatternDemo.sortStrategyDemo.strategy.impl.SelectSortStrategy" target="com.strategyPatternDemo.sortStrategyDemo.strategy.SortStrategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.strategyPatternDemo.sortStrategyDemo.strategy.impl.QuickSortStrategy" target="com.strategyPatternDemo.sortStrategyDemo.strategy.SortStrategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.strategyPatternDemo.sortStrategyDemo.context.SortContext" target="com.strategyPatternDemo.sortStrategyDemo.strategy.SortStrategy">
+      <point x="2.9085221055402855" y="-4.067001249272431" />
+      <point x="2.9085221055402855" y="-4.067001249272437" />
+    </edge>
+    <edge source="com.strategyPatternDemo.sortStrategyDemo.strategy.impl.InsertationSortStrategy" target="com.strategyPatternDemo.sortStrategyDemo.strategy.SortStrategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.strategyPatternDemo.sortStrategyDemo.strategy.impl.BubbleSortStrategy" target="com.strategyPatternDemo.sortStrategyDemo.strategy.SortStrategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.strategyPatternDemo.sortStrategyDemo.client.SortStrategyClient" target="com.strategyPatternDemo.sortStrategyDemo.context.SortContext">
+      <point x="5.000448401449731" y="0.0" />
+      <point x="5.000448401449731" y="0.0" />
+    </edge>
+    <edge source="com.strategyPatternDemo.sortStrategyDemo.client.SortStrategyClient" target="com.strategyPatternDemo.sortStrategyDemo.strategy.impl.QuickSortStrategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="319.5" y="180.0" />
+  <SelectedNodes>
+    <node>com.strategyPatternDemo.sortStrategyDemo.strategy.impl.QuickSortStrategy</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
