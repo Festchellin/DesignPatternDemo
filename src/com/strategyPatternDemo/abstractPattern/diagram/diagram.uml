@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-347.0" y="49.0">com.strategyPatternDemo.abstractPattern.context.Context</node>
+    <node x="-128.0" y="-54.0">com.strategyPatternDemo.abstractPattern.strategy.AbstractStrategy</node>
+    <node x="-122.68750000000003" y="176.0">com.strategyPatternDemo.abstractPattern.client.AbstractStrategyClient</node>
+    <node x="-128.0" y="61.0">com.strategyPatternDemo.abstractPattern.strategy.impl.ConcretStrategyA</node>
+    <node x="53.0" y="61.0">com.strategyPatternDemo.abstractPattern.strategy.impl.ConcretStrategyB</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.strategyPatternDemo.abstractPattern.context.Context" target="com.strategyPatternDemo.abstractPattern.strategy.AbstractStrategy">
+      <point x="49.75" y="-38.5" />
+      <point x="149.25" y="83.0" />
+      <point x="267.3" y="83.0" />
+      <point x="-32.19999999999999" y="26.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.abstractPattern.strategy.impl.ConcretStrategyA" target="com.strategyPatternDemo.abstractPattern.strategy.AbstractStrategy">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.abstractPattern.strategy.impl.ConcretStrategyB" target="com.strategyPatternDemo.abstractPattern.strategy.AbstractStrategy">
+      <point x="0.0" y="-26.5" />
+      <point x="480.5" y="83.0" />
+      <point x="331.7" y="83.0" />
+      <point x="32.19999999999999" y="26.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.abstractPattern.client.AbstractStrategyClient" target="com.strategyPatternDemo.abstractPattern.context.Context">
+      <point x="-22.0" y="-26.5" />
+      <point x="290.3125" y="200.0" />
+      <point x="149.25" y="200.0" />
+      <point x="49.75" y="38.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.abstractPattern.client.AbstractStrategyClient" target="com.strategyPatternDemo.abstractPattern.strategy.AbstractStrategy">
+      <point x="66.0" y="-26.5" />
+      <point x="378.3125" y="210.0" />
+      <point x="571.5" y="210.0" />
+      <point x="571.5" y="73.0" />
+      <point x="363.90000000000003" y="73.0" />
+      <point x="64.40000000000003" y="26.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.abstractPattern.client.AbstractStrategyClient" target="com.strategyPatternDemo.abstractPattern.strategy.impl.ConcretStrategyB">
+      <point x="22.0" y="-26.5" />
+      <point x="334.3125" y="200.0" />
+      <point x="480.5" y="200.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="14.5" y="73.0" />
+  <SelectedNodes>
+    <node>com.strategyPatternDemo.abstractPattern.context.Context</node>
+    <node>com.strategyPatternDemo.abstractPattern.strategy.AbstractStrategy</node>
+    <node>com.strategyPatternDemo.abstractPattern.client.AbstractStrategyClient</node>
+    <node>com.strategyPatternDemo.abstractPattern.strategy.impl.ConcretStrategyA</node>
+    <node>com.strategyPatternDemo.abstractPattern.strategy.impl.ConcretStrategyB</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

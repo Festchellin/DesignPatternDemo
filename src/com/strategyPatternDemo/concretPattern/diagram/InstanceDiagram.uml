@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="797.0" y="125.0">com.strategyPatternDemo.concretPattern.strategy.impl.TravelByBikeStrategy</node>
+    <node x="311.71875" y="240.0">com.strategyPatternDemo.concretPattern.client.ConcretStrategyPatternClient</node>
+    <node x="391.0" y="125.0">com.strategyPatternDemo.concretPattern.strategy.impl.TravelByTrainStrategy</node>
+    <node x="206.0" y="125.0">com.strategyPatternDemo.concretPattern.strategy.impl.TravelByCarStrategy</node>
+    <node x="585.0" y="125.0">com.strategyPatternDemo.concretPattern.strategy.impl.TravelByAirPlaneStrategy</node>
+    <node x="409.5" y="0.0">com.strategyPatternDemo.concretPattern.strategy.TravelStrategy</node>
+    <node x="0.0" y="113.0">com.strategyPatternDemo.concretPattern.context.TravelContext</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.strategyPatternDemo.concretPattern.strategy.impl.TravelByCarStrategy" target="com.strategyPatternDemo.concretPattern.strategy.TravelStrategy">
+      <point x="0.0" y="-26.5" />
+      <point x="288.5" y="93.0" />
+      <point x="458.42857142857144" y="93.0" />
+      <point x="-19.571428571428555" y="26.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.concretPattern.strategy.impl.TravelByTrainStrategy" target="com.strategyPatternDemo.concretPattern.strategy.TravelStrategy">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.concretPattern.client.ConcretStrategyPatternClient" target="com.strategyPatternDemo.concretPattern.context.TravelContext">
+      <point x="-80.25" y="-26.5" />
+      <point x="338.46875" y="220.0" />
+      <point x="46.5" y="220.0" />
+      <point x="-46.5" y="38.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.concretPattern.strategy.impl.TravelByBikeStrategy" target="com.strategyPatternDemo.concretPattern.strategy.TravelStrategy">
+      <point x="5.6843418860808015E-14" y="-26.5" />
+      <point x="882.0" y="83.0" />
+      <point x="517.1428571428571" y="83.0" />
+      <point x="39.14285714285711" y="26.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.concretPattern.client.ConcretStrategyPatternClient" target="com.strategyPatternDemo.concretPattern.strategy.TravelStrategy">
+      <point x="80.25" y="-26.5" />
+      <point x="498.96875" y="220.0" />
+      <point x="977.5" y="220.0" />
+      <point x="977.5" y="73.0" />
+      <point x="536.7142857142857" y="73.0" />
+      <point x="58.714285714285666" y="26.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.concretPattern.context.TravelContext" target="com.strategyPatternDemo.concretPattern.strategy.TravelStrategy">
+      <point x="-46.5" y="-38.5" />
+      <point x="46.5" y="73.0" />
+      <point x="419.2857142857143" y="73.0" />
+      <point x="-58.71428571428572" y="26.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.concretPattern.strategy.impl.TravelByAirPlaneStrategy" target="com.strategyPatternDemo.concretPattern.strategy.TravelStrategy">
+      <point x="0.0" y="-26.5" />
+      <point x="681.0" y="93.0" />
+      <point x="497.57142857142856" y="93.0" />
+      <point x="19.571428571428555" y="26.5" />
+    </edge>
+    <edge source="com.strategyPatternDemo.concretPattern.client.ConcretStrategyPatternClient" target="com.strategyPatternDemo.concretPattern.strategy.impl.TravelByAirPlaneStrategy">
+      <point x="26.75" y="-26.5" />
+      <point x="445.46875" y="210.0" />
+      <point x="681.0" y="210.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>com.strategyPatternDemo.concretPattern.client.ConcretStrategyPatternClient</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
