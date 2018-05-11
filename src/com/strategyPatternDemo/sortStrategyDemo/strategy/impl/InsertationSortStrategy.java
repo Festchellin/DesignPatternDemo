@@ -3,6 +3,10 @@ package com.strategyPatternDemo.sortStrategyDemo.strategy.impl;
 import com.strategyPatternDemo.sortStrategyDemo.strategy.SortStrategy;
 
 public class InsertationSortStrategy extends SortStrategy {
+    public InsertationSortStrategy() {
+        System.out.println("插入排序");
+    }
+
     @Override
     public int[] sort(int[] array) {
         int i, j, t = 0;

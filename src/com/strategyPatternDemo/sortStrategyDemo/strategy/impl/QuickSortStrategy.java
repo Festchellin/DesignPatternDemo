@@ -3,6 +3,10 @@ package com.strategyPatternDemo.sortStrategyDemo.strategy.impl;
 import com.strategyPatternDemo.sortStrategyDemo.strategy.SortStrategy;
 
 public class QuickSortStrategy extends SortStrategy {
+    public QuickSortStrategy() {
+        System.out.println("快速排序");
+    }
+
     public int[] quickSort(int[] array, int low, int high) {
         int pivot, p_pos, i, t;// pivot->位索引;p_pos->轴值。
         if (low < high) {

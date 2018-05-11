@@ -3,6 +3,10 @@ package com.strategyPatternDemo.sortStrategyDemo.strategy.impl;
 import com.strategyPatternDemo.sortStrategyDemo.strategy.SortStrategy;
 
 public class BubbleSortStrategy extends SortStrategy {
+    public BubbleSortStrategy() {
+        System.out.println("冒泡排序");
+    }
+
     @Override
     public int[] sort(int[] array) {
         int t = 0;
