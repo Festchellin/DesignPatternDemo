@@ -19,6 +19,14 @@ public class Transfer extends BankTemplateMethod {
         Double mount = scanner.nextDouble();
         System.out.println("将转账给账户："+account+",人民币："+mount+"元");
         System.out.println("正在转账.....");
+        for (int i = 0; i < 10; i++){
+            try {
+                Thread.sleep(1000);
+                System.out.print("*");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
         System.out.println("转账结束！");
         System.out.println("**************************");
         scanner.close();
